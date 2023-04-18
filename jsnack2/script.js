@@ -36,4 +36,4 @@ for (let i = 0; i < 7; i++) {
     falseList.push({firstName: randomName, lastName: randomSurname});
 }
 
-console.log(falseList);
+console.log('Lista Random:', falseList);
