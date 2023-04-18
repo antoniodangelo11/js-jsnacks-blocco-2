@@ -20,4 +20,4 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 
-console.log(`La somma degli elementi in posizione dispari dell'array è: ${oddNumbers}`);
+console.log(`La somma degli elementi in posizione dispari dell'array è:`, oddNumbers);
