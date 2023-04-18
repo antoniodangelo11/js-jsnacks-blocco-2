@@ -5,7 +5,6 @@ se è dispari inseriscilo nell’array.*/
 
 let num;
 let myArr = [];
-let valid = 0;
 
 
 for (let i = 0; i < 6; i++) {
@@ -16,7 +15,6 @@ for (let i = 0; i < 6; i++) {
     } 
     
     else if (num % 2 == 1) {
-        valid = 1;
         console.log('dispari', num);
         parseInt(myArr.push(num));
     }
