@@ -2,12 +2,12 @@
 Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari*/
 
 let numbers = [
-    5,
-    10,
-    15,
-    20,
-    25,
-    30,
+    5, //0
+    10, //1
+    15, //2
+    20, //3
+    25, //4
+    30, //5
 ];
 console.log(numbers);
 
@@ -20,4 +20,4 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 
-console.log(`La somma degli elementi in posizione dispari dell'array è ${oddNumbers}`);
+console.log(`La somma degli elementi in posizione dispari dell'array è: ${oddNumbers}`);
