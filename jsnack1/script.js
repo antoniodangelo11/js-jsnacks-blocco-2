@@ -3,7 +3,16 @@ Crea un array vuoto.
 Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.*/
 
-// Varibili array vuota e prompt da chiedere all'utente
+/*
+Creaiamo l'array vuoto myArr
+FOR per 6 volte
+    chiedi un numero all'utente e salviamolo in num
+    SE (num % 2 == 1)
+        puschiamo il numero nell'array my Arr
+    FINE SE
+FINE CICLO
+*/
+
 let num;
 let myArr = [];
 
@@ -11,13 +20,9 @@ let myArr = [];
 for (let i = 0; i < 6; i++) {
     num = parseInt(prompt('Inserisci un numero'));
 
-    if (num % 2 == 0) {
-        console.log('pari', num);
-    } 
-    
-    else if (num % 2 == 1) {
+    if (num % 2 == 1) {
         console.log('dispari', num);
-        parseInt(myArr.push(num));
+        myArr.push(num);
     }
     
 }

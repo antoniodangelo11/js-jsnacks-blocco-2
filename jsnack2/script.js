@@ -3,7 +3,7 @@ Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi 
 
 
 // Lista di Nomi
-let firstName = [
+const firstName = [
     'Antonio',
     'Gary',
     'Lamberto',
@@ -14,7 +14,7 @@ let firstName = [
 ];
 
 // Lista di Cognomi
-let lastName = [
+const lastName = [
     'Rossi',
     'Alonso',
     'Minardi',
